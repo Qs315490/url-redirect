@@ -1,0 +1,13 @@
+GET http://127.0.0.1/
+
+### 404 Page
+GET http://127.0.0.1/404.html
+
+### baidu.com
+GET http://127.0.0.1/aaa
+
+### /
+GET http://127.0.0.1/abc
+
+### 404 no url
+GET http://127.0.0.1/bbb

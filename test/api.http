@@ -1,0 +1,38 @@
+### 注册
+POST http://127.0.0.1/api/register
+Content-Type: application/json
+
+{
+    "name": "testuser",
+    "passwd": "123456"
+}
+### 登录
+POST http://127.0.0.1/api/login
+Content-Type: application/json
+
+{
+    "name": "testuser1",
+    "passwd": "123456"
+}
+### 已存在
+POST http://127.0.0.1/api/set/url
+Content-Type: application/json
+
+{
+    "uid": "2",
+    "token": "aaa",
+    "url": "/"
+}
+### 查询
+GET http://127.0.0.1/api/url
+?token=aaa
+
+### 新增加
+POST http://127.0.0.1/api/url
+Content-Type: application/json
+
+{
+    "uid": "2",
+    "token": "abc",
+    "url": "/"
+}
