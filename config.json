@@ -1,0 +1,7 @@
+{
+    "dataBase": "sqlite3",
+    "sqlite3":{
+        "path":"data.sqlite3"
+    },
+    "key": "test"
+}
